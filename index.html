@@ -9,7 +9,22 @@ h1 {
     color: black;
     text-align: center;
 }
+.container {
+    position: relative;
+}
 
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
 </style>
 </head>
 <body>
@@ -21,10 +36,15 @@ h1 {
             </form>
 
         </div>
+
+<div class="container">
+  <img src="trolltunga.jpg" alt="Norway" width="1000" height="300">
+  <div class="topright">Top Right</div>
+</div>
       
 <h1 style="font-family: sans-serif;"> HOME</h1>
 
-<button style="font-size:24px">Sign Up <i class="fa fa-address-book"></i></button>
+<button style="font-size:24px">Sign Up<i class="fa fa-address-book"></i></button>
 
 <a style="color:darkblue;" href="index.html">HOME</a>
 
