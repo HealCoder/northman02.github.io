@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF8/">
+<title>NorthManBlog</title>
+<style>
+div {
+    position: centered;
+    left: 0px;
+    top: 6px;
+    z-index: -1;
+}
+a:link, a:visited {
+    background-color: #808080;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: #000000;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+body {
+    background-image: url("http://wallpaperscraft.ru/image/forma_monohrom_polosy_74891_1920x1200.jpg");
+}
+</style>
+</head>
+
+<body>
+ <div style="background-color: darkgrey; color: wite; padding: 5px">
+     
+<h1 style="font-family: sans-serif;"> HOME</h1>
+<a style="font-family: sans-serif;" href="index.html">HOME</a>
+
+<a style="font-family: sans-serif;" href="page3.html">FIND ME</a>
+
+<a style="font-family: sans-serif;" href="page2.html">INFO</a>
+
+<form action="https://soundcloud.com/user-160083032" target="_blank"><input type=submit value="SOUNDCLOUD"></form>
+<form action="https://www.youtube.com/channel/UCc5RwiSxYzQuKKfgchqVcqw" target="_blank"><input type=submit value="YOUTUBE"></form>
+</body>
+</html>
