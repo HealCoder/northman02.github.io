@@ -3,12 +3,34 @@
 <head>
 <meta charset="UTF8/">
 <title>NorthManBlog</title>
-<style>    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+<style> 
+ .icon-bar {
+    width: 90px; /* Set a specific width */
+    background-color: #555; /* Dark-grey background */
+}
+
+.icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: top right; /* Center-align text */
+    padding: 16px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+
+.active {
+    background-color: #87CEEB; /* Add an active/current color */
+}   
 a:link, a:visited {
     background-color: #808080;
     color: white;
     padding: 14px 25px;
-    text-align: center;
+    text-align: top right;
     text-decoration: none;
     display: inline-block;
 }
@@ -133,8 +155,15 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 }
-</script>   
+</script> 
     
+  <div class="icon-bar">
+  <a class="active" href="#"><i class="fa fa-home"></i></a>
+  <a href="#"><i class="https://image.flaticon.com/icons/svg/123/123717.svg"></i></a>
+  <a href="#"><i class="fa fa-envelope"></i></a>
+  <a href="#"><i class="fa fa-globe"></i></a>
+  <a href="#"><i class="fa fa-trash"></i></a>
+</div>  
     
 </body>
 </html>
