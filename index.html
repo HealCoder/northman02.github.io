@@ -29,10 +29,10 @@ body {
 div.tab {
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: #808080;
 }
 div.tab button {
-    background-color: inherit;
+    background-color: #000000;
     float: left;
     border: none;
     outline: none;
@@ -71,7 +71,16 @@ div.tab button.active {
 
 <body>
     
-  <div class="tab">
+<h1 style="font-family: sans-serif;">THE NORTHMAN</h1>
+    
+<a style="font-family: sans-serif;" href="index.html">HOME</a>
+
+<a style="font-family: sans-serif;" href="page3.html">FIND ME</a>
+
+<a style="font-family: sans-serif;" href="page2.html">INFO</a>
+    
+    
+   <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'London')">London</button>
   <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
   <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
@@ -105,15 +114,8 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 }
-</script>
+</script>   
     
-<h1 style="font-family: sans-serif;">THE NORTHMAN</h1>
-    
-<a style="font-family: sans-serif;" href="index.html">HOME</a>
-
-<a style="font-family: sans-serif;" href="page3.html">FIND ME</a>
-
-<a style="font-family: sans-serif;" href="page2.html">INFO</a>
     
 </body>
 </html>
